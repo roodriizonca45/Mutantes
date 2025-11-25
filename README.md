@@ -153,8 +153,8 @@ Ejecutar:
 
 • **Rodrigo Ángel Zonca**  
 • Estudiante de Ingeniería en Sistemas de Información (UTN-FRM)  
-• Desarrollador Backend – Java / Spring Boot  
-• Proyecto elaborado para la materia Desarrollo de Software  
+• Desarrollador Full Stack 
+• Master Swimming
 
 
 
