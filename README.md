@@ -31,54 +31,57 @@ EntregaMutantes_51164/
 ├── .gitignore
 │
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── org/example/
-│ │ │ ├── Application.java
-│ │ │ │
-│ │ │ ├── config/
-│ │ │ │ └── SwaggerConfig.java
-│ │ │ │
-│ │ │ ├── controller/
-│ │ │ │ ├── MutantController.java
-│ │ │ │ └── StatsController.java
-│ │ │ │
-│ │ │ ├── dto/
-│ │ │ │ ├── DnaRequest.java
-│ │ │ │ └── StatsResponse.java
-│ │ │ │
-│ │ │ ├── entity/
-│ │ │ │ └── DnaRecord.java
-│ │ │ │
-│ │ │ ├── exception/
-│ │ │ │ ├── DnaHashCalculationException.java
-│ │ │ │ └── GlobalExceptionHandler.java
-│ │ │ │
-│ │ │ ├── repository/
-│ │ │ │ └── DnaRecordRepository.java
-│ │ │ │
-│ │ │ └── service/
-│ │ │ ├── MutantDetector.java
-│ │ │ ├── MutantService.java
-│ │ │ └── StatsService.java
-│ │ │
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ └── static/img/
-│ │ ├── banner.png
-│ │ ├── diagramas.png
-│ │ └── swagger-ui.png
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── org/example/
+│   │   │       ├── Application.java
+│   │   │       │
+│   │   │       ├── config/
+│   │   │       │   └── SwaggerConfig.java
+│   │   │       │
+│   │   │       ├── controller/
+│   │   │       │   ├── MutantController.java
+│   │   │       │   └── StatsController.java
+│   │   │       │
+│   │   │       ├── dto/
+│   │   │       │   ├── DnaRequest.java
+│   │   │       │   └── StatsResponse.java
+│   │   │       │
+│   │   │       ├── entity/
+│   │   │       │   └── DnaRecord.java
+│   │   │       │
+│   │   │       ├── exception/
+│   │   │       │   ├── DnaHashCalculationException.java
+│   │   │       │   └── GlobalExceptionHandler.java
+│   │   │       │
+│   │   │       ├── repository/
+│   │   │       │   └── DnaRecordRepository.java
+│   │   │       │
+│   │   │       └── service/
+│   │   │           ├── MutantDetector.java
+│   │   │           ├── MutantService.java
+│   │   │           └── StatsService.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   │           └── img/
+│   │               ├── banner.png
+│   │               ├── diagramas.png
+│   │               └── swagger-ui.png
 │
 └── test/
-└── java/org/example/
-├── controller/
-│ ├── MutantControllerTest.java
-│ └── StatsControllerTest.java
-│
-└── service/
-├── MutantDetectorTest.java
-├── MutantServiceTest.java
-└── StatsServiceTest.java
+    └── java/
+        └── org/example/
+            ├── controller/
+            │   ├── MutantControllerTest.java
+            │   └── StatsControllerTest.java
+            │
+            └── service/
+                ├── MutantDetectorTest.java
+                ├── MutantServiceTest.java
+                └── StatsServiceTest.java
+
 \`\`\`
 ---
 ## Documentación con Swagger
