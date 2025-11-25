@@ -1,4 +1,4 @@
-# Mutant Detector API  
+ 
 ![Banner del Proyecto](src/main/resources/static/img/banner.png)
 
 Proyecto desarrollado en **Java 23** + **Spring Boot 3** para detectar mutantes mediante el análisis de secuencias de ADN.  
