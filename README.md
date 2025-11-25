@@ -21,6 +21,7 @@ Incluye arquitectura limpia, tests unitarios, Swagger, base de datos H2 y cobert
 
 ---
 ## Estructura Completa PROYECTO
+\`\`\`
 EntregaMutantes_51164/
 ├── build.gradle.kts
 ├── settings.gradle.kts
@@ -85,7 +86,7 @@ EntregaMutantes_51164/
 │
 └── build/
     └── (archivos generados por Gradle)
-
+\`\`\`
 ---
 ## Documentación con Swagger
 
