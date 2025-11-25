@@ -384,77 +384,11 @@ Client
 
 ```
 ---
-🎯 <span style="color:#4CAF50">Mensaje Final del Proyecto</span>
+Este proyecto representa una solución completa y profesional para la detección automática de mutantes mediante el análisis de secuencias de ADN. Se implementó una arquitectura robusta basada en Spring Boot, acompañada de un diseño modular que separa responsabilidades entre controladores, servicios, repositorios y manejadores de excepciones.
+Además, se desarrolló una batería de tests unitarios que garantizan la correcta funcionalidad del sistema, junto con documentación accesible desde Swagger UI y persistencia en H2 para facilitar la verificación del procesamiento de datos.
+La estructura final, los diagramas y la documentación complementaria aseguran que la aplicación sea mantenible, escalable y lista para producción, cumpliendo con los estándares actuales de la industria del software.
+Este trabajo refleja un enfoque sólido de ingeniería, priorizando calidad, claridad y buenas prácticas en cada etapa del desarrollo.
 
-Este proyecto representa una solución completa, profesional y altamente mantenible para la detección automática de mutantes mediante análisis de secuencias de ADN.
-Cada capa del sistema fue diseñada con precisión, aplicando las mejores prácticas de ingeniería de software en arquitectura, testing, documentación y persistencia.
-
-🧬 <span style="color:#00BCD4">Tecnología y Arquitectura</span>
-
-El sistema implementa una arquitectura modular basada en:
-
-<span style="color:#FFEB3B">Spring Boot (3.x)</span>
-
-<span style="color:#FFC107">Controladores y Servicios separados</span>
-
-<span style="color:#FF9800">Repositorio H2 embebido para pruebas</span>
-
-<span style="color:#F44336">Global Exception Handler profesional</span>
-
-<span style="color:#9C27B0">DTOs, Entities y Validaciones bien definidas</span>
-
-Este enfoque permite un código limpio, escalable y altamente testeable.
-
-🧪 <span style="color:#3F51B5">Calidad del Software</span>
-
-Se incluye una batería de tests unitarios que garantizan:
-
-✔️ Comportamiento correcto de servicios
-
-✔️ Validación del algoritmo detector de mutantes
-
-✔️ Respuestas del controlador
-
-✔️ Manejo centralizado de errores
-
-Todo pensado para asegurar robustez y confiabilidad del sistema.
-
-📊 <span style="color:#E91E63">Documentación Interactiva</span>
-
-La API puede explorarse fácilmente mediante:
-
-🚀 Swagger UI → http://localhost:8080/swagger-ui/index.html
-Incluye endpoints, modelos, ejemplos y resultados esperados.
-
-🗄️ <span style="color:#009688">Persistencia y Visualización</span>
-
-La base de datos H2 permite examinar en vivo:
-
-Registros de ADN
-
-Histórico de consultas
-
-Estadísticas del sistema
-
-🌐 Consola H2 → http://localhost:8080/h2-console
-
-🌟 <span style="color:#8BC34A">Resultado Final</span>
-
-Este proyecto cumple con los estándares modernos de la industria, ofreciendo:
-
-Código claro y mantenible
-
-Arquitectura sólida y extensible
-
-Documentación completa
-
-Pruebas exhaustivas
-
-Interfaz interactiva mediante Swagger
-
-Base de datos integrada y accesible
-
-En conjunto, constituye una solución lista para presentar, lista para subir a GitHub y lista para producción.
 ---
 ##  Autor
 
