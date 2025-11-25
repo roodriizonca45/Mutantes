@@ -23,69 +23,62 @@ Incluye arquitectura limpia, tests unitarios, Swagger, base de datos H2 y cobert
 ## Estructura Completa PROYECTO
 \`\`\`
 EntregaMutantes_51164/
+├── README.md
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
 ├── .gitignore
-├── README.md
 │
 ├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── org/
-│   │   │       └── example/
-│   │   │           ├── Application.java
-│   │   │           │
-│   │   │           ├── config/
-│   │   │           │   └── SwaggerConfig.java
-│   │   │           │
-│   │   │           ├── controller/
-│   │   │           │   ├── MutantController.java
-│   │   │           │   └── StatsController.java
-│   │   │           │
-│   │   │           ├── dto/
-│   │   │           │   ├── DnaRequest.java
-│   │   │           │   └── StatsResponse.java
-│   │   │           │
-│   │   │           ├── entity/
-│   │   │           │   └── DnaRecord.java
-│   │   │           │
-│   │   │           ├── exception/
-│   │   │           │   ├── DnaHashCalculationException.java
-│   │   │           │   └── GlobalExceptionHandler.java
-│   │   │           │
-│   │   │           ├── repository/
-│   │   │           │   └── DnaRecordRepository.java
-│   │   │           │
-│   │   │           └── service/
-│   │   │               ├── MutantDetector.java
-│   │   │               ├── MutantService.java
-│   │   │               └── StatsService.java
-│   │   │
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── static/
-│   │           └── img/
-│   │               ├── banner.png
-│   │               ├── swagger-ui.png
-│   │               └── diagramas.png
-│   │
-│   └── test/
-│       └── java/
-│           └── org/
-│               └── example/
-│                   ├── controller/
-│                   │   ├── MutantControllerTest.java
-│                   │   └── StatsControllerTest.java
-│                   │
-│                   └── service/
-│                       ├── MutantDetectorTest.java
-│                       ├── MutantServiceTest.java
-│                       └── StatsServiceTest.java
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── org/example/
+│ │ │ ├── Application.java
+│ │ │ │
+│ │ │ ├── config/
+│ │ │ │ └── SwaggerConfig.java
+│ │ │ │
+│ │ │ ├── controller/
+│ │ │ │ ├── MutantController.java
+│ │ │ │ └── StatsController.java
+│ │ │ │
+│ │ │ ├── dto/
+│ │ │ │ ├── DnaRequest.java
+│ │ │ │ └── StatsResponse.java
+│ │ │ │
+│ │ │ ├── entity/
+│ │ │ │ └── DnaRecord.java
+│ │ │ │
+│ │ │ ├── exception/
+│ │ │ │ ├── DnaHashCalculationException.java
+│ │ │ │ └── GlobalExceptionHandler.java
+│ │ │ │
+│ │ │ ├── repository/
+│ │ │ │ └── DnaRecordRepository.java
+│ │ │ │
+│ │ │ └── service/
+│ │ │ ├── MutantDetector.java
+│ │ │ ├── MutantService.java
+│ │ │ └── StatsService.java
+│ │ │
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── static/img/
+│ │ ├── banner.png
+│ │ ├── diagramas.png
+│ │ └── swagger-ui.png
 │
-└── build/
-    └── (archivos generados por Gradle)
+└── test/
+└── java/org/example/
+├── controller/
+│ ├── MutantControllerTest.java
+│ └── StatsControllerTest.java
+│
+└── service/
+├── MutantDetectorTest.java
+├── MutantServiceTest.java
+└── StatsServiceTest.java
 \`\`\`
 ---
 ## Documentación con Swagger
