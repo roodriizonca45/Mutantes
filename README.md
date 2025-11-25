@@ -144,7 +144,50 @@ Ejecutar:
 • **Estructura del Proyecto (Tree View)**  
 
 ### Vista General 
-
+1. Diagrama de flujo del algoritmo
+```txt
+               ┌──────────┐
+               │   Start   │
+               └─────┬────┘
+                     │
+                     ▼
+           ┌────────────────────┐
+           │ Validate DNA input │
+           │ (NxN, A/T/C/G)     │
+           └─────┬──────────────┘
+                 │Yes
+                 │
+                 │       No
+                 ▼      ───────▶  ┌─────────────────────┐
+       ┌────────────────────┐     │ Return 400 BadRequest │
+       │ Detect mutant DNA  │     │ (invalid format)      │
+       │ using scanner      │     └───────────────────────┘
+       └─────┬──────────────┘
+             │
+             │Yes
+             ▼
+ ┌──────────────────────────────┐
+ │ Mark is_mutant = true        │
+ │ Save record into H2 database │
+ └───────────┬──────────────────┘
+             │
+             │No
+             ▼
+ ┌──────────────────────────────┐
+ │ Mark is_mutant = false       │
+ │ Save record into H2 database │
+ └───────────┬──────────────────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   Return     │
+      │   Response   │
+      └──────┬───────┘
+             ▼
+          ┌──────┐
+          │  End │
+          └──────┘
+```
 ![Diagramas del Proyecto](src/main/resources/static/img/diagramas.png)
 
 ---
