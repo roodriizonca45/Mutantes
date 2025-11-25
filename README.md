@@ -127,38 +127,35 @@ spring.h2.console.path=/h2-console
 ---
 ## Tests Unitarios
 
-Tests incluidos:
-
--MutantControllerTest
--StatsControllerTest
--MutantServiceTest
--StatsServiceTest
--MutantDetectorTest
+• **MutantDetectorTest** — Verifica la lógica de detección de mutantes en matrices ADN.  
+• **MutantServiceTest** — Prueba el servicio encargado de procesar ADN y persistir resultados.  
+• **StatsServiceTest** — Valida la obtención de estadísticas desde la base de datos.  
+• **MutantControllerTest** — Comprueba que el endpoint POST /mutant funcione correctamente.  
+• **StatsControllerTest** — Testea el endpoint GET /stats y su formato de respuesta.  
 
 Ejecutar:
 ./gradlew test
 
 ---
-## Diagramas UML del Sistema
+## Diagramas del Proyecto
 
-Incluye:
--Diagrama de Arquitectura
--Diagrama de Clases
--Diagrama de Casos de Uso
--Diagrama de Secuencia
--Diagrama de Componentes
+• **Diagrama UML General del Sistema**  
+• **Diagramas de Arquitectura y Flujo de Datos**  
+• **Estructura del Proyecto (Tree View)**  
 
-Vista general:
-![Diagramas UI](src/main/resources/static/img/diagramas.png)
+### Vista General 
+
+![Diagramas del Proyecto](src/main/resources/static/img/diagramas.png)
 
 ---
 
-## Autor
+##  Autor
 
--Rodrigo Ángel Zonca
--Legajo: 51164
--Ingeniería en Sistemas de Información — UTN
--Desarrollador Full Stack-Master Swimming
+• **Rodrigo Ángel Zonca**  
+• Estudiante de Ingeniería en Sistemas de Información (UTN-FRM)  
+• Desarrollador Backend – Java / Spring Boot  
+• Proyecto elaborado para la materia Desarrollo de Software  
+
 
 
 
