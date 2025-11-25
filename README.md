@@ -21,7 +21,6 @@ Incluye arquitectura limpia, tests unitarios, Swagger, base de datos H2 y cobert
 
 ---
 ## Estructura Completa PROYECTO
-\`\`\`
 ```txt
 EntregaMutantes_51164/
 ├── README.md
@@ -84,8 +83,6 @@ EntregaMutantes_51164/
                 └── StatsServiceTest.java
 
 ```
-
-\`\`\`
 ---
 ## Documentación con Swagger
 
